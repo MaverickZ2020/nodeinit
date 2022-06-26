@@ -20,7 +20,7 @@ var httpsServer = https.createServer(httpsServerOptions,function(req,res){
 */
 
 httpServer.listen(config.httpPort,function(){
-    console.log("El servidor ya esta escuchando el puerto:  " + config.httpPort + " con la configuracion: " + config.envName );
+    console.log("El servidor ya esta escuchando el puerto: " + config.httpPort + " con la configuracion: " + config.envName );
 });
 
 /*
